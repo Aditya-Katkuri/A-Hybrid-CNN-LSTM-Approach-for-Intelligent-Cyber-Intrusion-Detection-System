@@ -1,6 +1,6 @@
 # A Hybrid CNN-LSTM Approach for Intelligent Cyber Intrusion Detection System
 
-This repo is for providing access to the code of the paper "A Hybrid CNN-LSTM Approach for Intelligent Cyber Intrusion Detection System"
+This repo is for providing access to the code of the paper ["A Hybrid CNN-LSTM Approach for Intelligent Cyber Intrusion Detection System"](https://doi.org/10.1016/j.cose.2024.104146).
 
 ## Introduction
 With the rapid digitalization of critical infrastructure, safeguarding against sophisticated cyber threats has become paramount. This paper presents a **hybrid deep learning approach** for an **Intrusion Detection System (IDS)** using the **CNN-LSTM** model, focusing on the NSL-KDD dataset. Through feature selection and model optimization, this system aims to accurately differentiate between malicious and benign network traffic, thereby enhancing cybersecurity.
