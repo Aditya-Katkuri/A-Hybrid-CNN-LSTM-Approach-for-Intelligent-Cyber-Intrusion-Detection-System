@@ -11,11 +11,18 @@ The proposed IDS employs:
 - **Feature Selection**: Recursive Feature Elimination (RFE) using a Decision Tree classifier, which identifies the most relevant features to reduce dimensionality and improve model performance.
 - **Model Architecture**: A CNN-LSTM network combining **CNN layers** for feature extraction with **LSTM layers** for temporal pattern analysis. The model is trained with binary cross-entropy loss and optimized using the Adam optimizer.
 
+<p align="center">
+  <img src="assets/Intrusion_CNN-LSTM.png" alt="Overall Approach" width="300">
+</p>
+
 ### CNN-LSTM Model Overview
 - **Convolutional Layers**: Two sets of 1D convolutional layers with 64 and 128 filters, interspersed with max-pooling and batch normalization for dimensionality reduction and overfitting prevention.
 - **LSTM Layer**: A 100-unit LSTM layer capturing temporal dependencies within the data.
 - **Output**: Dense layer for binary classification between normal and intrusive traffic.
 
+<p align="center">
+  <img src="assets/CNN-LSTM_arch.png" alt="CNN-LSTM Model Architecture" width="300">
+</p>
 
 
 ## Results
@@ -35,17 +42,7 @@ This performance is higher than other tested models (ANN, LSTM, GRU), making CNN
 | CNN-LSTM  | 0.95     | 0.98      | 0.89   | 0.94     |
 
 ## Installation
-To use this model:
-1. Clone this repository.
-2. Install dependencies from `requirements.txt`.
-3. Run the script with the NSL-KDD dataset to reproduce the results.
-
-```bash
-git clone <repository-url>
-cd <repository-folder>
-pip install -r requirements.txt
-python main.py
-```
+The model is provided in the notebook format. Download the NSL KDD+ dataset before running the src/Intrusion_Detection.ipynp notebook. 
 
 ## Usage
 
