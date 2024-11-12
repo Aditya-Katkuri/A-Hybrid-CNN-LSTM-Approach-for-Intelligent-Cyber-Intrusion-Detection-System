@@ -55,6 +55,7 @@ The model can be applied to detect potential intrusions in real-time network tra
 
 If you find this work useful, please cite it as follows:
 
+```bash
 @article{Bamber2025HybridCNNLSTM,
   title={A hybrid CNN-LSTM approach for intelligent cyber intrusion detection system},
   author={Sukhvinder Singh Bamber, Aditya Vardhan Reddy Katkuri, Shubham Sharma, Mohit Angurala},
@@ -63,7 +64,7 @@ If you find this work useful, please cite it as follows:
   pages={104146},
   year={2025}
 }
-
+```
 
 
 
