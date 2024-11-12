@@ -1,5 +1,7 @@
 # A Hybrid CNN-LSTM Approach for Intelligent Cyber Intrusion Detection System
 
+This repo is for providing access to the code of the paper "A Hybrid CNN-LSTM Approach for Intelligent Cyber Intrusion Detection System"
+
 ## Introduction
 With the rapid digitalization of critical infrastructure, safeguarding against sophisticated cyber threats has become paramount. This paper presents a **hybrid deep learning approach** for an **Intrusion Detection System (IDS)** using the **CNN-LSTM** model, focusing on the NSL-KDD dataset. Through feature selection and model optimization, this system aims to accurately differentiate between malicious and benign network traffic, thereby enhancing cybersecurity.
 
@@ -13,6 +15,8 @@ The proposed IDS employs:
 - **Convolutional Layers**: Two sets of 1D convolutional layers with 64 and 128 filters, interspersed with max-pooling and batch normalization for dimensionality reduction and overfitting prevention.
 - **LSTM Layer**: A 100-unit LSTM layer capturing temporal dependencies within the data.
 - **Output**: Dense layer for binary classification between normal and intrusive traffic.
+
+
 
 ## Results
 The CNN-LSTM model demonstrated superior performance, particularly with RFE. Key metrics include:
@@ -41,3 +45,25 @@ git clone <repository-url>
 cd <repository-folder>
 pip install -r requirements.txt
 python main.py
+```
+
+## Usage
+
+The model can be applied to detect potential intrusions in real-time network traffic data by deploying it as part of a larger cybersecurity pipeline.
+
+## Citation
+
+If you find this work useful, please cite it as follows:
+
+@article{Bamber2025HybridCNNLSTM,
+  title={A hybrid CNN-LSTM approach for intelligent cyber intrusion detection system},
+  author={Sukhvinder Singh Bamber, Aditya Vardhan Reddy Katkuri, Shubham Sharma, Mohit Angurala},
+  journal={Computers & Security},
+  volume={148},
+  pages={104146},
+  year={2025}
+}
+
+
+
+
